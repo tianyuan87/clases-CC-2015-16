@@ -1,13 +1,21 @@
-#Sesión de la primera semana, 21-25 de septiembre 2015
+#Primera semana, 21-25 de septiembre 2015
 
 Agradeceré que contestes la [encuesta inicial](https://docs.google.com/forms/d/1IxQv2LXWvmA3KbK8HgJAzWpNGvXkMitcf7eCIS5aXDI/viewform)
 
-##Objetivos a cubrir en la sesión
+##Objetivos a cubrir en la primera semana
 
 1. Entender la metodología docente, de evaluación y de interacción de la asignatura.
 2. Darse de alta y comprender el funcionamiento básico de [GitHub](https://github.com) y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura.
 2. Entender el concepto de software libre y su aplicación práctica en clase.
 3. Vernos las caras.
+4. Comenzar a usar git desde línea de órdenes y comprender su papel como sistema para trabajo colaborativo y despliegue de aplicaciones.
+5. Comprender la metodología de desarrollo, prueba y despliegue en la que se basa la computación en nube.
+
+## Otros objetivos
+* Tener a punto una instalación Linux para llevar a cabo las actividades de la asignatura
+* Usar los métodos de entrega de ejercicios propuestos para la asignatura [usando GitHub](../ejercicios/README.md). 
+* Manejar de forma básica la línea de órdenes de Linux.
+* Aprender a instalar software libre en Linux. 
 
 ## Contenidos 
 * Presentación de los profesores y los recursos de la asignatura: [web](http://jj.github.io/CC) y [Twitter `@iv_gii`](http://twitter.com/iv_gii).
@@ -20,7 +28,12 @@ Agradeceré que contestes la [encuesta inicial](https://docs.google.com/forms/d/
 * Introducción al uso de **Markdown**.
 * Introducción al software libre y la [oficina de software libre de la UGR](http://osl.ugr.es).
 * Sistema operativo de referencia en la asignatura: Linux (Ubuntu, Debian, Archlinux, Fedora, OpenSUSE, Linux Mint).
+* Entender la cultura DevOps y cómo cambia la filosofía de trabajo.
 
-##Siguientes objetivos
+##Material para la clase
+
+Comienza por esta [mini-introducción a git](http://mini-git.github.io/) y continúa con [el material de este primer tema](http://jj.github.io/CC/documentos/temas/Desarrollo_basado_en_pruebas).
+
+##Siguiente semana
 
 [Segunda semana 28 septiembre-2 de octubre](2-semana.md)
