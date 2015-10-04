@@ -1,6 +1,6 @@
 #Primera semana, 5 de octubre 2015
 
-Agradeceré que contestes la [encuesta inicial](https://docs.google.com/forms/d/1IxQv2LXWvmA3KbK8HgJAzWpNGvXkMitcf7eCIS5aXDI/viewform)
+Agradeceré que contestes la [encuesta inicial](https://docs.google.com/forms/d/1IxQv2LXWvmA3KbK8HgJAzWpNGvXkMitcf7eCIS5aXDI/viewform). 
 
 ##Objetivos a cubrir en la primera semana
 
@@ -39,8 +39,8 @@ trabajar en el mismo.
 Comienza por esta
 [mini-introducción a git](http://mini-git.github.io/) y continúa con
 [el material de este primer tema](http://jj.github.io/CC/documentos/temas/Desarrollo_basado_en_pruebas)
-y con el [primer hito del proyecto](http://jj.github.io/CC/documentos/practicas/1.Infraestructura)
+y con el [primer hito del proyecto](http://jj.github.io/CC/documentos/practicas/1.Infraestructura). El plazo de entrega de este primer hito terminará el **19 de octubre a las 7:30 de la tarde**. 
 
 ##Siguiente semana
 
-[Segunda semana 12 de octubre ](2-semana.md)
+[Segunda semana, 12 de octubre ](2-semana.md)
