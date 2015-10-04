@@ -1,4 +1,4 @@
-#Primera semana, 5 de septiembre 2015
+#Primera semana, 5 de octubre 2015
 
 Agradeceré que contestes la [encuesta inicial](https://docs.google.com/forms/d/1IxQv2LXWvmA3KbK8HgJAzWpNGvXkMitcf7eCIS5aXDI/viewform)
 
@@ -10,6 +10,8 @@ Agradeceré que contestes la [encuesta inicial](https://docs.google.com/forms/d/
 3. Vernos las caras.
 4. Comenzar a usar git desde línea de órdenes y comprender su papel como sistema para trabajo colaborativo y despliegue de aplicaciones.
 5. Comprender la metodología de desarrollo, prueba y despliegue en la que se basa la computación en nube.
+6. Entender en qué consiste el proyecto de la asignatura y comenzar a
+trabajar en el mismo.
 
 ## Otros objetivos
 * Tener a punto una instalación Linux para llevar a cabo las actividades de la asignatura
@@ -19,6 +21,7 @@ Agradeceré que contestes la [encuesta inicial](https://docs.google.com/forms/d/
 * Entregar el fichero de objetivos y los primeros ejercicios usando GitHub. 
 
 ## Contenidos 
+
 * Presentación de los profesores y los recursos de la asignatura: [web](http://jj.github.io/CC) y [Twitter `@iv_gii`](http://twitter.com/iv_gii).
 * [Visión general de la asignatura](http://unicms-testing.terragiro.es/mo_ing_informatica/pages/info_academica/guias/201415/1semestre/cloud-computing-fundamentos-e-infraestructuras/!).
 * Metodología docente: [Clase inversa](http://www.tecnologiasparalaeducacion.es/la-clase-inversa-flip-classroom-tecnologias/), incluyendo eliminación de la distinción teoría/prácticas y consecuencias que trae.
@@ -33,7 +36,10 @@ Agradeceré que contestes la [encuesta inicial](https://docs.google.com/forms/d/
 
 ##Material para la clase
 
-Comienza por esta [mini-introducción a git](http://mini-git.github.io/) y continúa con [el material de este primer tema](http://jj.github.io/CC/documentos/temas/Desarrollo_basado_en_pruebas).
+Comienza por esta
+[mini-introducción a git](http://mini-git.github.io/) y continúa con
+[el material de este primer tema](http://jj.github.io/CC/documentos/temas/Desarrollo_basado_en_pruebas)
+y con el [primer hito del proyecto](http://jj.github.io/CC/documentos/practicas/1.Infraestructura)
 
 ##Siguiente semana
 
