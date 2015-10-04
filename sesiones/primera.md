@@ -1,4 +1,4 @@
-#Primera semana, 21-25 de septiembre 2015
+#Primera semana, 5 de septiembre 2015
 
 Agradeceré que contestes la [encuesta inicial](https://docs.google.com/forms/d/1IxQv2LXWvmA3KbK8HgJAzWpNGvXkMitcf7eCIS5aXDI/viewform)
 
@@ -15,7 +15,8 @@ Agradeceré que contestes la [encuesta inicial](https://docs.google.com/forms/d/
 * Tener a punto una instalación Linux para llevar a cabo las actividades de la asignatura
 * Usar los métodos de entrega de ejercicios propuestos para la asignatura [usando GitHub](../ejercicios/README.md). 
 * Manejar de forma básica la línea de órdenes de Linux.
-* Aprender a instalar software libre en Linux. 
+* Aprender a instalar software libre en Linux.
+* Entregar el fichero de objetivos y los primeros ejercicios usando GitHub. 
 
 ## Contenidos 
 * Presentación de los profesores y los recursos de la asignatura: [web](http://jj.github.io/CC) y [Twitter `@iv_gii`](http://twitter.com/iv_gii).
@@ -36,4 +37,4 @@ Comienza por esta [mini-introducción a git](http://mini-git.github.io/) y conti
 
 ##Siguiente semana
 
-[Segunda semana 28 septiembre-2 de octubre](2-semana.md)
+[Segunda semana 12 de octubre ](2-semana.md)
