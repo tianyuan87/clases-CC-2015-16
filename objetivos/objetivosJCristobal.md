@@ -1,13 +1,15 @@
-Lista de objetivos del profe
+Objetivos de José Cristóbal López Zafra
 
-[x] Entender la metodología docente, de evaluación y de interacción de la asignatura. 
+# Objetivos de la clase de 5 de Octubre
 
-[x] Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura. 
+[] Entender la metodología docente, de evaluación y de interacción de la asignatura. 
 
-[x] Entender el concepto de software libre y su aplicación práctica en clase. 
+[] Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura. 
 
-[x] Vernos las caras. 
+[] Entender el concepto de software libre y su aplicación práctica en clase. 
 
-[x] Comenzar a usar git desde línea de órdenes y comprender su papel como sistema para trabajo colaborativo y despliegue de aplicaciones. 
+[] Vernos las caras. 
 
-[x] Comprender la metodología de desarrollo, prueba y despliegue en la que se basa la computación en nube.
+[] Comenzar a usar git desde línea de órdenes y comprender su papel como sistema para trabajo colaborativo y despliegue de aplicaciones. 
+
+[] Comprender la metodología de desarrollo, prueba y despliegue en la que se basa la computación en nube.
