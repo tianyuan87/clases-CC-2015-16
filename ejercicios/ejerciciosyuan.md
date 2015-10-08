@@ -4,4 +4,4 @@ Instalar alguno de los entornos virtuales de node.js y, con ellos, instalar la Ã
 
 Instalamos con el command  sudo apt-get install python-virtualenv
 
-![imagen1](http://imgur.com/DXT63Y6)
+![imagen1](http://i.imgur.com/DXT63Y6.png?1)
