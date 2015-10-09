@@ -8,7 +8,7 @@ Para instalar nodeenv simplemente ejecutamos el comando `sudo easy_install nodee
 
 Trabajaremos con python por lo que instalamos virtualenv con el comando  `sudo apt-get install python-virtualenv`
 
-[Pantallazo mostrando la versión del enterno virtualenv una vez instalado](http://imgur.com/a/ijPG4)
+![Pantallazo mostrando la versión del enterno virtualenv una vez instalado](https://gyazo.com/b36d0a16c360e31c324da6b8dff0c06b)
 
 
 ##Ejercicio2
