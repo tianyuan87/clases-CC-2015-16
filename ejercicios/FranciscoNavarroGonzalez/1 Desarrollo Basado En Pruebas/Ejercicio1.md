@@ -16,6 +16,7 @@ Pero como siempre hay una solución que se extiende sobre el resto, en este caso
 Lo bueno de Nodeenv es que te permite integrarlo con virtualenv y python, de hecho, su instalación se realiza a través de python y sus herramientas de gestión de dependencias easy_install/pip.
 
 ![NodeJSinstall](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1nodejs.png "Instalacion NodeJS")
+![Nodeenvinstall](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1nodenv.png)
 
 1.2 Python
 
@@ -24,6 +25,13 @@ Para instalar virtualenv se puede hacer desde los repositorios de la mayoría de
 En concreto para las últimas versiones de Fedora (>21)  
 
 sudo dnf install python-virtualenv (para la version 2.7)
+![PythonVirutalEnv](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1python27virtualenv.png)
 
 sudo dnf install python3-virtualenv (para la version 3)
- 
+![Python3VirtualEnv](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1python3virtualenv.png)
+
+Por supuesto, al ser python la herramienta elegida se podría utilizar pip/easy install para tal fin.
+
+2.Creación de los Virtual Environment
+
+
