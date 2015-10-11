@@ -1,14 +1,14 @@
-Ejercicio 1
+#Ejercicio 1
 ==============================
 
-1. Instalar alguno de los entornos virtuales de node.js y, con ellos, instalar la última versión existente, la versión minor más actual de la 0.12 y lo mismo para la 0.11 o alguna impar. 
+##1. Instalar alguno de los entornos virtuales de node.js y, con ellos, instalar la última versión existente, la versión minor más actual de la 0.12 y lo mismo para la 0.11 o alguna impar. 
 Si no se usa habitualmente este lenguaje, hacer lo mismo con cualquier otro lenguaje de scripting.
 
-Solucion 
+#Solucion 
 ==============================
-1.Instalacion de las herramientas para la creación de entornos virtuales
+##1.Instalacion de las herramientas para la creación de entornos virtuales
 
-1.1 NodeJS
+###1.1 NodeJS
 
 Para NodeJS existen varios entornos virtuales la mayoría por no decir todos son software libre. 
 Pero como siempre hay una solución que se extiende sobre el resto, en este caso las soluciones más populares entre la comunidad son [Nodeenv](https://github.com/ekalinin/nodeenv) y [Nave](https://github.com/isaacs/nave)
@@ -18,7 +18,7 @@ Lo bueno de Nodeenv es que te permite integrarlo con virtualenv y python, de hec
 ![NodeJSinstall](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1nodejs.png "Instalacion NodeJS")
 ![Nodeenvinstall](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1nodenv.png)
 
-1.2 Python
+###1.2 Python
 
 Uno de los lenguajes que más he utilizado ha sido python, por lo tanto para este ejercicio también crearé un entorno virtual para este lenguaje. 
 Para instalar virtualenv se puede hacer desde los repositorios de la mayoría de las distribuciones de linux. 
@@ -32,7 +32,28 @@ sudo dnf install python3-virtualenv (para la version 3)
 
 Por supuesto, al ser python la herramienta elegida se podría utilizar pip/easy install para tal fin.
 
-2.Creación de los Virtual Environment
+##2.Creación de los Virtual Environment
 
-2.1 Para NodeJS
+###2.1 Para NodeJS
+Se requiere instalar un virtual env para la última versión, otra para la 0.12 y otra para la 0.11
+
+####2.1.1 Para la última versión
+La última versión es la 4.1.2. Por defecto nodeenv instala la última versión disponible. 
+Por lo tanto, basta con especificar el directorio donde queremos la instalación del entornovirtual. 
+
+sudo nodeenv /var/lib/nodejs412
+
+--Imagen--
+
+####2.1.2 Para la versión 0.12.7 (que es la minor mas actual)
+Para ello especificamos la versión con -n seguido del path donde queremos que se expanda. 
+
+--Imagen--
+
+####2.1.3 Para la versión 0.11.16 (unstable)
+
+--Imagen--
+
+
+###2.2 Para python
 
