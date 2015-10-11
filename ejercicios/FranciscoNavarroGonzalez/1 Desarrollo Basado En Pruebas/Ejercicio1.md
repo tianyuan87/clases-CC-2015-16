@@ -52,7 +52,7 @@ Para ello especificamos la versión con -n seguido del path donde queremos que s
 
 ####2.1.3 Para la versión 0.11.16 (unstable)
 
-![Nodejsv01116](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/1nodejs011116.png)
+![Nodejsv01116](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/1nodejs01116.png)
 
 
 ###2.2 Para python
