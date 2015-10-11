@@ -43,17 +43,33 @@ Por lo tanto, basta con especificar el directorio donde queremos la instalación
 
 sudo nodeenv /var/lib/nodejs412
 
---Imagen--
+![Nodjsv412](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1nodejs412.png)
 
 ####2.1.2 Para la versión 0.12.7 (que es la minor mas actual)
 Para ello especificamos la versión con -n seguido del path donde queremos que se expanda. 
 
---Imagen--
+![Nodejsv0127](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/imagenes/1nodejs0127.png)
 
 ####2.1.3 Para la versión 0.11.16 (unstable)
 
---Imagen--
+![Nodejsv01116](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/1nodejs011116.png)
 
 
 ###2.2 Para python
 
+####2.2.1 Para python 2.7
+
+Para python, como hemos dicho antes utilizamos la herramienta virtualenv. 
+Para ello hay que especificar que versión queremos utilizar. Podemos aprovechar la instalación de python en nuestra distribución con el parámetro -p. 
+
+Sudo -p /usr/bin/python27 /var/lib/envpython27
+
+![Python27env](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/1envpython27.png)
+
+####2.2.2 Para python 3
+
+La última versión de python 3 es la 3.4. Procedemos como antes. 
+
+sudo virtualenv -p /usr/bin/python3.4 /var/lib/envpython34
+
+![Python34env](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/1envpython34.png)
