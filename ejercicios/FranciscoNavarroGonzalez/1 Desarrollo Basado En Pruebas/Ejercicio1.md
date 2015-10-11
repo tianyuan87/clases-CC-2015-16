@@ -34,4 +34,5 @@ Por supuesto, al ser python la herramienta elegida se podría utilizar pip/easy 
 
 2.Creación de los Virtual Environment
 
+2.1 Para NodeJS
 
