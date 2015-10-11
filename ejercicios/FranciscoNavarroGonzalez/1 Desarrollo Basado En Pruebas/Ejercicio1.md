@@ -9,6 +9,7 @@ Solucion
 1.Instalacion de las herramientas para la creación de entornos virtuales
 
 1.1 NodeJS
+
 Para NodeJS existen varios entornos virtuales la mayoría por no decir todos son software libre. 
 Pero como siempre hay una solución que se extiende sobre el resto, en este caso las soluciones más populares entre la comunidad son [Nodeenv](https://github.com/ekalinin/nodeenv) y [Nave](https://github.com/isaacs/nave)
 
