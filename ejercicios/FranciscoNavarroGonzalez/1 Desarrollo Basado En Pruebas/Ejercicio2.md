@@ -11,5 +11,5 @@ El repositorio para el ejercicio es [RankingEmpresas](https://github.com/fnavarr
 Para ello vamos a utilizar un virtualenv con python 2.7 y django. 
 La instalación de django es trivial con el uso de pip. 
 ![PythonDjangoInstall](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/2djangoinstall.png)
-Además utilizamos django-admin para crear la primera aplicación. Ojo! Aplicación, no proyecto. Ya que lo que nos piden es realizar una biblioteca. 
-![PythonDjangoInstall](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/2djangoapp.png)
+Además utilizamos django-admin para crear la primera aplicación.
+Para ello vamos a poner un proyecto de ejemplo "Ejercicio2" con una aplicación "Rankingempresas". Ya que el análogo a Django de bibliteca sería una aplicación. 
