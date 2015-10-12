@@ -62,7 +62,7 @@ Para ello especificamos la versión con -n seguido del path donde queremos que s
 Para python, como hemos dicho antes utilizamos la herramienta virtualenv. 
 Para ello hay que especificar que versión queremos utilizar. Podemos aprovechar la instalación de python en nuestra distribución con el parámetro -p. 
 
-Sudo -p /usr/bin/python27 /var/lib/envpython27
+Sudo virtualenv -p /usr/bin/python27 /var/lib/envpython27
 
 ![Python27env](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/1envpython27.png)
 

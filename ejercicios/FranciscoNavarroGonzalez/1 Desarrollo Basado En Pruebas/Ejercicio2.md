@@ -6,4 +6,10 @@ Se puede hacer un ejercicio equivalente, siempre que tenga operaciones similares
 
 #Solucion
 ================
-El repositorio para el ejercicio es [RankingEmpresas](https://github.com/fnavarrogonzalez/RankingEmpresas)
+El repositorio para el ejercicio es [RankingEmpresas](https://github.com/fnavarrogonzalez/RankingEmpresas).
+
+Para ello vamos a utilizar un virtualenv con python 2.7 y django. 
+La instalación de django es trivial con el uso de pip. 
+![PythonDjangoInstall](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/2djangoinstall.png)
+Además utilizamos django-admin para crear la primera aplicación. 
+![PythonDjangoInstall](https://github.com/fnavarrogonzalez/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1 Desarrollo Basado En Pruebas/imagenes/2djangoapp.png)
