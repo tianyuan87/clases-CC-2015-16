@@ -4,10 +4,13 @@
 
 ### Curso 2015-2016
 
-Directorio de los archivos con los ejercicios desarrollados por **Germán Martínez Maldonado** de la asignatura **Cloud Computing: Fundamentos e Infraestructuras**, curso *2015-2016*, perteneciente al **Máster Profesional en Ingeniería Informática**.
+Directorio de los archivos con los ejercicios desarrollados por **Germán Martínez Maldonado** de la asignatura **Cloud Computing: Fundamentos e Infraestructuras**, curso *2015-2016*, perteneciente al **Máster Universitario en Ingeniería Informática**.
 
 <p align="center">
 <img src="by-sa.png" title="CC">
 </p>
 
-* [Tema 1. Iniciación a DevOps: desarrollo basado en pruebas.](tema_1/README.md)
+* [Tema 1. Iniciación a DevOps: desarrollo basado en pruebas.](tema_01/README.md)
+* Tema 2. Usando contenedores.
+* Tema 3. Uso de sistemas de virtualización.
+* Tema 4. Gestión de configuraciones.
