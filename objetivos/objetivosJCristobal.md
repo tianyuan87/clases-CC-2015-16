@@ -27,3 +27,12 @@ Objetivos adicionales
 [X] Aprender a instalar software libre en Linux.
 
 [X] Entregar el fichero de objetivos y los primeros ejercicios usando GitHub.
+
+
+# Objetivos de la clase de 14 de Octubre
+
+[] Comprender la metodología de desarrollo, prueba y despliegue en la que se basa la computación en nube.
+
+[]  Entender las herramientas usadas en diferentes lenguajes de programación para desarrollo basado en test.
+[]  Darse de alta en los servicios usados en desarrollo basado en test.
+
