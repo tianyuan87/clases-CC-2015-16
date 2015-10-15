@@ -1,10 +1,10 @@
 #Ejercicio 1
 
-Instalar alguno de los entornos virtuales de _node.js_ y, con ellos, instalar la última versión existente, la versión _minor_ más actual de la _0.12_ y lo mismo para la _0.11_ o alguna impar. Si no se usa habitualmente este lenguaje, hacer lo mismo con cualquier otro lenguaje de _scripting_.
+Instalar alguno de los entornos virtuales de _node.js_ y, con ellos, instalar la √∫ltima versi√≥n existente, la versi√≥n _minor_ m√°s actual de la _0.12_ y lo mismo para la _0.11_ o alguna impar. Si no se usa habitualmente este lenguaje, hacer lo mismo con cualquier otro lenguaje de _scripting_.
 
-###Pasos realizados para la resolución del ejercicio:
+###Pasos realizados para la resoluci√≥n del ejercicio:
 
-1. Instalación de la herramienta _nodeenv_, utilizando el módulo de _python_ denominado _easy install_:
+1. Instalaci√≥n de la herramienta _nodeenv_, utilizando el m√≥dulo de _python_ denominado _easy install_:
 
  `sudo easy_install nodeenv`
 
@@ -12,19 +12,19 @@ Instalar alguno de los entornos virtuales de _node.js_ y, con ellos, instalar la
 
  `nodeenv --list`
 
- Al obtener la lista de versiones disponibles de _node.js_, se puede notar que la última versión existente es la **_4.1.2_**, la versión _minor_ más actual de la _0.12_ es la **_0.12.7_**, y para la _0.11_ es la **_0.11.16_**. Por tanto, esas tres versiones serán las que instalaremos para el presente ejercicio.
+ Al obtener la lista de versiones disponibles de _node.js_, se puede notar que la √∫ltima versi√≥n existente es la **_4.1.2_**, la versi√≥n _minor_ m√°s actual de la _0.12_ es la **_0.12.7_**, y para la _0.11_ es la **_0.11.16_**. Por tanto, esas tres versiones ser√°n las que instalaremos para el presente ejercicio.
 
-3. Instalación de ambiente en _nodeenv_ con versión _4.1.2_ de _node.js_, utilizando el comando:
+3. Instalaci√≥n de ambiente en _nodeenv_ con versi√≥n _4.1.2_ de _node.js_, utilizando el comando:
 
  `nodeenv --node=4.1.2 --jobs=4 env-4.1.2`
 
- donde _node_ se refiere a la versión de _node.js_ que se instalará en el ambiente, _jobs_ indica que se utilizarán cuatro (4) comandos paralelos para compilación, y _env-4.1.2_ es el nombre del nuevo ambiente a crear.
+ donde _node_ se refiere a la versi√≥n de _node.js_ que se instalar√° en el ambiente, _jobs_ indica que se utilizar√°n cuatro (4) comandos paralelos para compilaci√≥n, y _env-4.1.2_ es el nombre del nuevo ambiente a crear.
 
  Se obtiene el siguiente resultado:
 
  `* Install node (4.1.2)... done.`
 
-4. Instalación de ambiente en _nodeenv_ con versión _0.12.7_ de _node.js_, utilizando el comando:
+4. Instalaci√≥n de ambiente en _nodeenv_ con versi√≥n _0.12.7_ de _node.js_, utilizando el comando:
 
  `nodeenv --node=0.12.7 --jobs=4 env-0.12.7`
 
@@ -32,7 +32,7 @@ Instalar alguno de los entornos virtuales de _node.js_ y, con ellos, instalar la
 
  `* Install node (0.12.7)... done.`
 
-5. Instalación de ambiente en _nodeenv_ con versión _0.11.16_ de _node.js_, utilizando el comando:
+5. Instalaci√≥n de ambiente en _nodeenv_ con versi√≥n _0.11.16_ de _node.js_, utilizando el comando:
 
  `nodeenv --node=0.11.16 --jobs=4 env-0.11.16`
 
