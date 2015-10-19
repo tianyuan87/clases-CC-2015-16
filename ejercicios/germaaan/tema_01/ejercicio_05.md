@@ -8,7 +8,7 @@ Lo primero es instalar `grunt`.
 sudo npm install -g grunt-cli
 ```
 
-Creamos el `Gruntfile.js` indicando en `src` los archivos de los se va a realizar la documentación; en este caso, todos los archivos **.js** que se encuentran en la raíz y los archivos **.js** en la carpeta **lib**, que es la librería que he desarrollado.
+Creamos el `Gruntfile.js` indicando en `src` los archivos de los se va a realizar la documentación; en este caso, todos los archivos **.js** que se encuentran en la raíz y los archivos **.js** en la carpeta **models**, que es la librería que he desarrollado.
 
 ```
 'use strict';
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     docco: {
       debug: {
-        src: ['*.js', 'lib/*.js'],
+        src: ['*.js', 'models/*.js'],
         options: {
           output: 'docs/'
         }

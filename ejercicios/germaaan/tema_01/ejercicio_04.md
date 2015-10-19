@@ -26,17 +26,9 @@ El archivo `package.json` de la aplicación actualmente tiene el siguiente conte
   "os": [
     "linux"
   ],
-  "private": false,
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": ""
-  },
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
+    },
   "dependencies": {
     "bluebird": "^2.10.2",
     "express": "^3.21.2",
@@ -44,10 +36,7 @@ El archivo `package.json` de la aplicación actualmente tiene el siguiente conte
     "sqlite3": "^3.1.0",
     "underscore": "^1.8.3"
   },
-  "devDependencies": {
-    "docco": "^0.7.0",
-    "grunt-docco": "^0.4.0"
-  },
+  "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
     "node": ">=0.11"
@@ -67,7 +56,6 @@ El archivo `package.json` de la aplicación actualmente tiene el siguiente conte
 - `main`: el módulo principal de la aplicación.
 - `os`: el sistema operativo para el que está desarrollado la aplicación.
 - `scripts`: lista de scripts que se podrán ejecutar mediante `npm run-script SCRIPT`, permitiendo así simplificar la ejecución de tareas como el inicio de la aplicación o la ejecución de los tests de la misma.
-- `directories`: lista los directorios importantes de la aplicación como puede ser el de las librerías y el de los tests.
 - `dependencies`: módulos necesarios para que la aplicación pueda funcionar. Se puede indicar que se instale una versión exacta de las dependencias añadiendo **"^"** seguido de la versión que se quiere instalar.
 - `devDependencies`: módulos necesarios para tareas de desarrollo de la aplicación como pueden ser ejecución de tests o despliegue automático.
 - `optionalDependencies`: otros módulos que es recomendable que se instalen.
