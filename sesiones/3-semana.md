@@ -1,4 +1,4 @@
-#Primera semana, 19 de octubre de 2015
+#Tercera semana, 19 de octubre de 2015
 
 Si todavía no os habéis inscrito, recordad
 también la
