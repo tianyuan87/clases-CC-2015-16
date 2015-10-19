@@ -24,7 +24,7 @@ Como ambas aserciones se cumplirán siempre, al ejecutar el programa test se mos
 
 ![eje06_img01](img/eje06_img01.png)
 
-En el siguiente caso, vamos a contar con que el método para generar el ranking de las empresas todavía no ha sido implementado completamente. Para que el método funcione correctamente, el valor que devuelva debe ser una colección en la que todos los objetos tendrán una propiedad llamada "empresa", otra llamada "numCalificaciones" y otra llamada "calificacionProm"; esto será necesario para que la plantilla Jade de la página de la aplicación pueda procesar esta información correctamente y mostrarla en pantalla. En este caso vamos a usar la librería `Should.js` para comprobar si esto funciona correctamente o no.
+En el siguiente caso, vamos a contar con que el método para generar el ranking de las empresas todavía no ha sido implementado completamente. Para que el método funcione correctamente, el valor que devuelva debe ser una colección en la que todos los objetos tendrán una propiedad llamada "empresa", otra llamada "numCalificaciones" y otra llamada "calificacionProm"; esto será necesario para que la plantilla Jade de la página de la aplicación pueda procesar esta información correctamente y mostrarla en pantalla. En este caso vamos a usar la librería `Should.js` para comprobar si esto funciona correctamente o no, así que primero tendremos que instalarla (`npm install should --save-dev`)
 
 ```
 empresa.generarRanking(function(error, data) {
