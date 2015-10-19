@@ -16,10 +16,10 @@
 
 #### Objetivos adicionales
 - [X] Tener a punto una instalación Linux para llevar a cabo las actividades de la asignatura.
-- [ ] Usar los métodos de entrega de ejercicios propuestos para la asignatura [usando GitHub](https://github.com/JJ/clases-CC-2015-16/blob/master/ejercicios/README.md).
+- [X] Usar los métodos de entrega de ejercicios propuestos para la asignatura [usando GitHub](https://github.com/JJ/clases-CC-2015-16/blob/master/ejercicios/README.md).
 - [X] Manejar de forma básica la línea de órdenes de Linux.
 - [X] Aprender a instalar software libre en Linux.
-- [ ] Entregar el fichero de objetivos y los primeros ejercicios usando GitHub.
+- [X] Entregar el fichero de objetivos y los primeros ejercicios usando GitHub.
 
 
 ### Segunda semana, 12 de octubre 2015
@@ -31,4 +31,4 @@
 #### Objetivos adicionales
 
 - [X] Entender las herramientas usadas en diferentes lenguajes de programación para desarrollo basado en test.
-- [ ] Darse de alta en los servicios usados en desarrollo basado en test.
+- [X] Darse de alta en los servicios usados en desarrollo basado en test.
