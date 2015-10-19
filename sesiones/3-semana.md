@@ -20,6 +20,13 @@ que se usen de forma habitual.
 * Comparar las herramientas de integración continua e integrarlas con
   un repositorio de prueba para que se ejecuten automáticamente cuando
   se haga el *push*.
+* Comprobar que se está dado de alta en los medios de comunicación de esta asignatura: [lista de correo y GitHub]
+* Usar de forma correcta GitHub:
+  * Configurar todas las variables globales para que los commits se hagan correctamente,
+  * Avatar, perfil, ciudad y universidad para fácil identificación.
+  * Usar también el modo *ssh* para conexión subiendo la clave pública a GitHub, **no** https.
+  * Aprender el uso de `.gitignore` para que no aparezcan los ficheros que no deban en `git status`
+	* Aprender la utilidad de `git status`. 
 
 ##Material para la clase
 
