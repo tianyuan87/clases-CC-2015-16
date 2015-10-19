@@ -6,24 +6,24 @@ En [este repositorio](https://github.com/germaaan/calificaEmpresas) se encuentra
 
 - **Crear empresa**: es obligatorio rellenar el campo *"Empresa"*.
 
-![eje02_img01](img/eje02_img01.png)
+![eje02_img01](https://dl.dropboxusercontent.com/s/a2rt616dqzs6601/eje02_img01.png)
 
 - **Listar calificaciones**: es obligatorio rellenar el campo *"Empresa"*.
 
-![eje02_img02](img/eje02_img02.png)
+![eje02_img02](https://dl.dropboxusercontent.com/s/sbxoixxysjwbxdd/eje02_img02.png)
 
 - **Crear calificación**: es obligatorio rellenar todos los campos. No se podrá crear una calificación para una empresa con un nombre de alumno que ya haya creado una calificación para esa empresa.
 
-![eje02_img03](img/eje02_img03.png)
+![eje02_img03](https://dl.dropboxusercontent.com/s/7fxaskwcp5mqs2x/eje02_img03.png)
 
 - **Borrar calificación**: son obligatorios los campos *"Empresa"* y *"Alumno"*. Si no existe una calificación de ese alumno para esa empresa, el programa no hará nada.
 
-![eje02_img04](img/eje02_img04.png)
+![eje02_img04](https://dl.dropboxusercontent.com/s/cvz1h70432jhwv8/eje02_img04.png)
 
 - **Actualizar califación**: son obligatorios todos los campos. Si no existe una calificación de ese alumno para esa empresa, el programa no hará nada.
 
-![eje02_img05](img/eje02_img05.png)
+![eje02_img05](https://dl.dropboxusercontent.com/s/1g78p5vvkdckv7z/eje02_img05.png)
 
 - **Generar ranking**: no es necesario rellenar ningún campo. Las empresas serán ordenadas según su calificación promedia.
 
-![eje02_img06](img/eje02_img06.png)
+![eje02_img06](https://dl.dropboxusercontent.com/s/znmsyx3h84qhkwj/eje02_img06.png)

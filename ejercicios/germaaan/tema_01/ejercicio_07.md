@@ -55,4 +55,4 @@ En el archivo **package.json** creamos un script para ejecutar `mocha`:
 
 Ya solo nos falta ejecutar `mocha` y esperar que todos los test se pasen correctamente. En este caso ha sido así, y vemos como los 3 tests han pasado.
 
-![eje07_img01](img/eje07_img01.png)
+![eje07_img01](https://dl.dropboxusercontent.com/s/12kubxpeol2a5i2/eje07_img01.png)

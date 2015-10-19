@@ -10,7 +10,7 @@ cd n
 sudo make install
 ```
 
-![eje01_img01](img/eje01_img01.png)
+![eje01_img01](https://dl.dropboxusercontent.com/s/3mds5llxau44v7i/eje01_img01.png)
 
 Una vez instalado, podemos ver las versiones de **Node.js** que podemos instalar.
 
@@ -25,4 +25,4 @@ sudo n 0.11.16
 sudo n 0.12.7
 ```
 
-![eje01_img02](img/eje01_img02.png)
+![eje01_img02](https://dl.dropboxusercontent.com/s/ep55o3mgh1s93k6/eje01_img02.png)

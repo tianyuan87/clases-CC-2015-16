@@ -8,7 +8,7 @@ Lo primero es instalar `grunt`.
 sudo npm install -g grunt-cli
 ```
 
-Creamos el `Gruntfile.js` indicando en `src` los archivos de los se va a realizar la documentación; en este caso, todos los archivos **.js** que se encuentran en la raíz y los archivos **.js** en la carpeta **models**, que es la librería que he desarrollado.
+Creamos el `Gruntfile.js` indicando en `src` los archivos de los se va a realizar la documentación; en este caso, todos los archivos **.js** que se encuentran en la raíz y los archivos **.js** en la carpeta **lib**, que es la librería que he desarrollado.
 
 ```
 'use strict';
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     docco: {
       debug: {
-        src: ['*.js', 'models/*.js'],
+        src: ['*.js', 'lib/*.js'],
         options: {
           output: 'docs/'
         }
@@ -48,8 +48,8 @@ Generamos la documentación de la aplicación.
 grunt docco
 ```
 
-![eje05_img01](img/eje05_img01.png)
+![eje05_img01](https://dl.dropboxusercontent.com/s/rfzpecz0fo5yt37/eje05_img01.png)
 
 La documentación debería haberse generado en el directorio **docs** de raíz y verse así, como en el caso del archivo **empresa.js**:
 
-![eje05_img02](img/eje05_img02.png)
+![eje05_img02](https://dl.dropboxusercontent.com/s/1ddraq05tzw381j/eje05_img02.png)
