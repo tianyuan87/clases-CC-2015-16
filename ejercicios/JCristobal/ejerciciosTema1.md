@@ -75,9 +75,29 @@ unittest.TextTestRunner(verbosity=2).run(suite)
 
 
 ##Ejercicio7
-Convertir los tests unitarios anteriores con assert a programas de test y ejecutarlos desde mocha, usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante. 
+###Convertir los tests unitarios anteriores con assert a programas de test y ejecutarlos desde mocha, usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante. 
 
-*(Problemas con Mocha, pendiente de arreglo)*
+Si no lo tenemos instalado podemos hacerlo con `npm install mocha --save-dev`. Creamos un archivo básico package.json y especificamos que ejecute mocha:
+
+```
+{
+  "name": "ProyectCC-PeriodicoInteractivo",
+
+  "version": "0.0.1",
+
+  "author": "JCristobal",
+
+  "description": "Proyecto de MII en Granada: Periódico web interactivo",
+
+  "keywords": ["CC, periodico"],
+
+  "scripts": {
+    "test": "mocha"
+  }
+}
+```
+
+Dentro de [test/test.js](https://github.com/JCristobal/ProjectCC/blob/master/test/test.js) creamos unos test básicos y los [probamos con `npm test`](https://i.gyazo.com/c73072ec292100288d83b91b41c15e28.png).
 
 
 ##Ejercicio8
