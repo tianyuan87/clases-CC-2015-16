@@ -17,20 +17,27 @@ Trabajaremos con python por lo que instalamos virtualenv con el comando  `sudo a
 ###Se puede hacer un ejercicio equivalente, siempre que tenga operaciones similares: creación, listado, borrado, ciclo CRUD básico. El objetivo de este ejercicio es poner en práctica lo que viene a continuación, NO es un objetivo de la asignatura.
 
 
-Optaré por la segunda opción, un ejercicio equivalente.
+Optaré por la segunda opción, un ejercicio equivalente. Lo desarrollaremos en una [organización de github](https://github.com/ProyectCC), con cada miembro encargado de un submódulo. [Mi submódulo es éste](https://github.com/JCristobal/ProjectCC).
 
-
-[Ejercicios hechos hasta aquí]
 
 
 ##Ejercicio3
 
-Ejecutar el programa en diferentes versiones del lenguaje. ¿Funciona en todas ellas?
+###Ejecutar el programa en diferentes versiones del lenguaje. ¿Funciona en todas ellas?
+
+Ejecuto con python y python3. Funciona correctamente para el primero, pero para la segunda no tiene la sintasis adecuada
+
+![Pantallazo probando las diferentes versiones](https://i.gyazo.com/10d60cfb9eb7fb4d19dbaee3f87cbc8b.png)
 
 
 ##Ejercicio4
 
-Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente. 
+###Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente. 
+
+Con python creamos el archivo requirement.txt, que lista las dependencias que necesitamos. Podemos verlas ejecutando `pip freeze`.
+
+Para crear el archivo con dichas dependencias ejecutamos: `pip freeze >> requirements.txt`.
+
 
 ##Ejercicio5
 
