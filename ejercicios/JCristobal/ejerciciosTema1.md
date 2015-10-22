@@ -54,7 +54,7 @@ Los documentos generados (html con sus respectivos css) los puedo ver en el [dir
 
 ###Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga (vamos, lo que viene siendo TDD).
 
-Pruebo una serie de aserciones básicas de *unittest* para strings y mi conexión a la BD. Añado algún test básico en script.py antes de lanzar la aplicación:
+Pruebo una serie de aserciones básicas de *unittest* para strings y mi conexión a la BD. Añado algún test básico en script.py antes de lanzar la aplicación (en el repositorio todos los test):
 
 ```
 import unittest
@@ -75,24 +75,24 @@ unittest.TextTestRunner(verbosity=2).run(suite)
 
 
 ##Ejercicio7
-
-###Convertir los tests unitarios anteriores con assert a programas de test y ejecutarlos desde mocha, usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante. 
+Convertir los tests unitarios anteriores con assert a programas de test y ejecutarlos desde mocha, usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante. 
 
 *(Problemas con Mocha, pendiente de arreglo)*
 
+
 ##Ejercicio8
 
-###Para Jenkins, Travis o Shippable:
+### En mi caso para Travis:
 
-###1- Darse de alta. Muchos están conectados con GitHub por lo que puedes usar directamente el usuario ahí. A través de un proceso de autorización, acceder al contenido e incluso informar del resultado de los tests.
+####1- Darse de alta. Muchos están conectados con GitHub por lo que puedes usar directamente el usuario ahí. A través de un proceso de autorización, acceder al contenido e incluso informar del resultado de los tests.
 
-Simplemente a través de GitHub
+Simplemente a través de GitHub.
 
-###2- Activar el repositorio en el que se vaya a aplicar la integración continua. Travis permite hacerlo directamente desde tu configuración; en otros se dan de alta desde la web de GitHub.
+####2- Activar el repositorio en el que se vaya a aplicar la integración continua. Travis permite hacerlo directamente desde tu configuración; en otros se dan de alta desde la web de GitHub.
 
-Dentro del repositorio, en Settings y en el apartado "Webhooks & services" pulsamos el botón "Test service"
+Dentro del repositorio, en Settings y en el apartado "Webhooks & services" pulsamos el botón "Test service".
 
-###3- Crear un fichero de configuración para que se ejecute la integración y añadirlo al repositorio.
+####3- Crear un fichero de configuración para que se ejecute la integración y añadirlo al repositorio.
 
 Lo creo con el nombre [.travis.yml](https://github.com/JCristobal/ProjectCC/blob/master/.travis.yml) y tras varias correcciones se ejecuta correctamente.
 
@@ -109,9 +109,14 @@ install: "pip install -r requirements.txt"
 script: nosetests
 ```
 
+
+
 ![Travis funcionando](https://i.gyazo.com/31e032a0ba29fdc0d8a34a586b9325ac.png)
 
 
+
+
 Y por último añado el *badge*, que se puede ver en el [README](https://github.com/JCristobal/ProjectCC) del proyecto.
+
 
 
