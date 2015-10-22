@@ -36,7 +36,7 @@ Ejecuto con python y python3. Funciona correctamente para el primero, pero para 
 
 Con python creamos el archivo requirement.txt, que lista las dependencias que necesitamos. Podemos verlas ejecutando `pip freeze`.
 
-Para crear [el archivo](https://github.com/JCristobal/ProjectCC/blob/master/requirements.txt) con dichas dependencias ejecutamos: `pip freeze >> requirements.txt`.
+Y creamos [el archivo](https://github.com/JCristobal/ProjectCC/blob/master/requirements.txt) con las dependencias que necesita nuestro proyecto.
 
 
 ##Ejercicio5
@@ -47,7 +47,7 @@ Usaré [pycco](http://fitzgen.github.io/pycco/), "versión python de Docco".
 
 Una vez instalado con `sudo pip install pycco` ejecuto `pycco python.py` o `pycco *.py` si hay varios archivos python.
 
-Los documentos generados (html con sus respectivos css) los puedo ver en el directorio docs/ 
+Los documentos generados (html con sus respectivos css) los puedo ver en el [directorio docs/](https://github.com/JCristobal/ProjectCC/tree/master/docs) 
 
 
 ##Ejercicio6
@@ -76,25 +76,42 @@ unittest.TextTestRunner(verbosity=2).run(suite)
 
 ##Ejercicio7
 
-Convertir los tests unitarios anteriores con assert a programas de test y ejecutarlos desde mocha, usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante. 
+###Convertir los tests unitarios anteriores con assert a programas de test y ejecutarlos desde mocha, usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante. 
 
+*(Problemas con Mocha, pendiente de arreglo)*
 
 ##Ejercicio8
 
+###Para Jenkins, Travis o Shippable:
 
-1- Darse de alta. Muchos están conectados con GitHub por lo que puedes usar directamente el usuario ahí. A través de un proceso de autorización, acceder al contenido e incluso informar del resultado de los tests.
+###1- Darse de alta. Muchos están conectados con GitHub por lo que puedes usar directamente el usuario ahí. A través de un proceso de autorización, acceder al contenido e incluso informar del resultado de los tests.
 
-2- Activar el repositorio en el que se vaya a aplicar la integración continua. Travis permite hacerlo directamente desde tu configuración; en otros se dan de alta desde la web de GitHub.
+Simplemente a través de GitHub
 
-3- Crear un fichero de configuración para que se ejecute la integración y añadirlo al repositorio.
+###2- Activar el repositorio en el que se vaya a aplicar la integración continua. Travis permite hacerlo directamente desde tu configuración; en otros se dan de alta desde la web de GitHub.
 
-(Haced los dos primeros pasos antes de pasar al tercero)
+Dentro del repositorio, en Settings y en el apartado "Webhooks & services" pulsamos el botón "Test service"
+
+###3- Crear un fichero de configuración para que se ejecute la integración y añadirlo al repositorio.
+
+Lo creo con el nombre [.travis.yml](https://github.com/JCristobal/ProjectCC/blob/master/.travis.yml) y tras varias correcciones se ejecuta correctamente.
+
+Mi .travis.yml básico contiene:
+
+```
+language: python
+python:
+  - '2.6'
+  - '2.7'
+# command to install dependencies
+install: "pip install -r requirements.txt"
+# command to run tests
+script: nosetests
+```
+
+![Travis funcionando](https://i.gyazo.com/31e032a0ba29fdc0d8a34a586b9325ac.png)
 
 
-
-
-
-
-
+Y por último añado el *badge*, que se puede ver en el [README](https://github.com/JCristobal/ProjectCC) del proyecto.
 
 
