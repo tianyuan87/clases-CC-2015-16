@@ -36,16 +36,43 @@ Ejecuto con python y python3. Funciona correctamente para el primero, pero para 
 
 Con python creamos el archivo requirement.txt, que lista las dependencias que necesitamos. Podemos verlas ejecutando `pip freeze`.
 
-Para crear el archivo con dichas dependencias ejecutamos: `pip freeze >> requirements.txt`.
+Para crear [el archivo](https://github.com/JCristobal/ProjectCC/blob/master/requirements.txt) con dichas dependencias ejecutamos: `pip freeze >> requirements.txt`.
 
 
 ##Ejercicio5
 
-Automatizar con grunt y docco (o algún otro sistema) la generación de documentación de la librería que se cree. Previamente, por supuesto, habrá que documentar tal librería.
+###Automatizar con grunt y docco (o algún otro sistema) la generación de documentación de la librería que se cree. Previamente, por supuesto, habrá que documentar tal librería.
+
+Usaré [pycco](http://fitzgen.github.io/pycco/), "versión python de Docco".
+
+Una vez instalado con `sudo pip install pycco` ejecuto `pycco python.py` o `pycco *.py` si hay varios archivos python.
+
+Los documentos generados (html con sus respectivos css) los puedo ver en el directorio docs/ 
+
 
 ##Ejercicio6
 
-Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga (vamos, lo que viene siendo TDD).
+###Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga (vamos, lo que viene siendo TDD).
+
+Pruebo una serie de aserciones básicas de *unittest* para strings y mi conexión a la BD. Añado algún test básico en script.py antes de lanzar la aplicación:
+
+```
+import unittest
+class TestMethods(unittest.TestCase):
+
+  #test básicos comprbando strings
+  def test_upper(self):
+      self.assertEqual('foo'.upper(), 'FOO')
+
+  # test para comprobar que nos hemos conectado
+  def test_dbcon(self):
+      client = MongoClient()
+      db = client.usuarios
+      
+suite = unittest.TestLoader().loadTestsFromTestCase(TestMethods)
+unittest.TextTestRunner(verbosity=2).run(suite)
+```
+
 
 ##Ejercicio7
 
