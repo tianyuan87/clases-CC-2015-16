@@ -25,6 +25,6 @@ Lista de objetivos
 * [X] Comprender la metodología de desarrollo, prueba y despliegue en la que se basa la computación en nube.
 
 
-  [] Entender las herramientas usadas en diferentes lenguajes de programación para desarrollo basado en test.
+* [X] Entender las herramientas usadas en diferentes lenguajes de programación para desarrollo basado en test.
   
-  [] Darse de alta en los servicios usados en desarrollo basado en test.
+* [X] Darse de alta en los servicios usados en desarrollo basado en test.
