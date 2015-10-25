@@ -7,3 +7,19 @@ Se puede hacer un ejercicio equivalente, siempre que tenga operaciones similares
 #Solucion
 ================
 El repositorio para el ejercicio es [RankingEmpresas](https://github.com/fnavarrogonzalez/RankingEmpresas).
+
+Se han implementado algunas funcionalidades basicas y algunas vistas de ejemplo:
+- login/register de students
+- crear empresa
+- ver empresa 
+- votar empresa
+- ver ranking
+
+Se han tenido en cuenta algunos errores: 
+![Ranking](http://francisconavarro.nom.es/cloudcomputing/t1/ranking.png)
+![Votar](http://francisconavarro.nom.es/cloudcomputing/t1/errorvote.png)
+![Ver empresa](http://francisconavarro.nom.es/cloudcomputing/t1/infoempresa.png)
+![Crear empresa](http://francisconavarro.nom.es/cloudcomputing/t1/crearempresa.png)
+![ErrorAuth](http://francisconavarro.nom.es/cloudcomputing/t1/errorauth.png)
+![ErrorMail](http://francisconavarro.nom.es/cloudcomputing/t1/errormail.png)
+![ErrorPwd](http://francisconavarro.nom.es/cloudcomputing/t1/errorpwd.png)
