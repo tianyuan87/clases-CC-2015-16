@@ -38,5 +38,19 @@ Como usaré python creo el archivo requirement.txt, para observar cuales son las
 
 a continuación creo el archivo [requirement.txt](https://github.com/miguelfervi/ProjectCC/blob/master/requeriment.txt) con el total de dependencias para este proyecto
 
+##Ejercicio 5
+###Automatizar con grunt y docco (o algún otro sistema) la generación de documentación de la librería que se cree.Previamente, por supuesto, habrá que documentar tal librería.
+
+Para python usaremos un port de docco llamado pycco.
+
+Para instalarlo usaremos `sudo pip install pycco' y para ejecutar `pycco archivopython.py' 
+
+Los documentos generados (html con sus respectivos css) los puedo ver en el directorio [docs](https://github.com/miguelfervi/ProjectCC/tree/master/docs)
+
+##Ejercicio 6
+##Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga (vamos, lo que viene siendo TDD).
+
+
+![Test](https://gyazo.com/086d9d00a1636672d9a0c2d14b59eba7.png)
 
 
