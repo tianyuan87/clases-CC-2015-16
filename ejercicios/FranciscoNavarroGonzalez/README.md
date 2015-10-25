@@ -17,3 +17,8 @@ Directorio para los ejercicios de autoevaluación.
 
  1.6 [Ejercicio 6](https://github.com/JJ/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/Ejercicio6.md)
 
+ 1.6 [Ejercicio 7](https://github.com/JJ/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/Ejercicio7.md)
+
+ 1.6 [Ejercicio 8](https://github.com/JJ/clases-CC-2015-16/blob/master/ejercicios/FranciscoNavarroGonzalez/1%20Desarrollo%20Basado%20En%20Pruebas/Ejercicio8.md)
+
+
