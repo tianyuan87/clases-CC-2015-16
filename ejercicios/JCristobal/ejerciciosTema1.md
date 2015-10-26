@@ -1,4 +1,4 @@
-** José Cristóbal López Zafra - Ejercicios del [tema 1](http://jj.github.io/CC/documentos/temas/Desarrollo_basado_en_pruebas)**
+**José Cristóbal López Zafra - Ejercicios del [tema 1](http://jj.github.io/CC/documentos/temas/Desarrollo_basado_en_pruebas)**
 
 ##Ejercicio1
 
