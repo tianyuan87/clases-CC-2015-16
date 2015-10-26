@@ -5,3 +5,17 @@ Instalar alguno de los entornos virtuales de node.js y, con ellos, instalar la �
 Instalamos con el command  sudo apt-get install python-virtualenv
 
 ![imagen1](http://i.imgur.com/DXT63Y6.png?1)
+
+
+#Ejercicos 2
+Se puede hacer un ejercicio equivalente, siempre que tenga operaciones similares: creación, listado, borrado, ciclo CRUD básico. El objetivo de este ejercicio es poner en práctica lo que viene a continuación, NO es un objetivo de la asignatura.
+
+Voy a hacer submodulo  https://github.com/tianyuan87/ProjectCC
+
+#Ejercicos 3
+Ejecutar el programa en diferentes versiones del lenguaje. ¿Funciona en todas ellas?
+
+![imagen1](http://i.imgur.com/q7S0nBE.png?1)
+
+
+
