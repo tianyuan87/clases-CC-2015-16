@@ -1,8 +1,10 @@
-#Tercera semana, 26 de octubre de 2015
+#Cuarta semana, 26 de octubre de 2015
 
 Si todavía no os habéis inscrito, recordad
 también la
 [inscripción en el certamen de proyectos](http://osl.ugr.es/2015/10/01/certamen-de-proyectos-libres-de-la-universidad-de-granada-2015-2016/). Si ya os habéis inscrito, animad a compañeros y amigos a que se inscriban.
+
+El miércoles me sustituirá en clase Pedro Castillo, otro de los profesores de la asignatura.
 
 ##Objetivos a cubrir en esta semana
 
